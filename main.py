@@ -68,7 +68,7 @@ def handle_message(data):
     print(data)
 
 
-# app.run()
+app.run()
 app.register_blueprint(users, url_prefix="/users")
 app.register_blueprint(groups, url_prefix="/groups")
 app.register_blueprint(auth, url_prefix="/auth")
