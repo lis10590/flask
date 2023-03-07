@@ -1,7 +1,16 @@
-click==7.1.2
-Flask==1.1.2
-gunicorn==20.0.4
-itsdangerous==1.1.0
-Jinja2==2.11.3
-MarkupSafe==1.1.1
-Werkzeug==1.0.1
+Flask==2.2.2
+Flask_Cors==3.0.10
+Flask_JWT_Extended==4.4.4
+Flask_SocketIO==5.3.2
+pymongo==4.2.0
+requests==2.28.1
+Gunicorn
+# eventlet==0.30.2
+gevent
+python-dotenv==0.21.0
+dnspython==1.16.0
+waitress==2.1.2
+gevent-websocket==0.10.1
+h11==0.14.0
+simple-websocket==0.9.0
+wsproto==1.2.0
