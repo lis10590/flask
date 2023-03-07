@@ -74,4 +74,4 @@ app.register_blueprint(groups, url_prefix="/groups")
 app.register_blueprint(auth, url_prefix="/auth")
 app.register_blueprint(messages, url_prefix="/messages")
 
-# socketio.run(app)
+socketio.run(app)
